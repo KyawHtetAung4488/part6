@@ -14,9 +14,9 @@ export const setNoti = (noti, time) => {
             noti,
         })
 
-        (setTimeout(() => {
+        setTimeout(() => {
             dispatch(setNoti(null))
-          }, time * 1000))
+        }, time * 1000)
         
     }
 }
